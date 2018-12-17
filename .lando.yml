@@ -8,3 +8,30 @@ config:
   via: nginx
   php: "7.2"
   xdebug: true
+proxy:
+  mailhog:
+    - mailhog.wp5composer.lndo.site
+  nginx:
+    - nginx.wp5composer.lndo.site
+  phpmyadmin:
+    - phpmyadmin.wp5composer.lndo.site
+  # redis-commander:
+  #   - redis-commander.wp5composer.lndo.site
+services:
+  mailhog:
+    type: mailhog
+    hogfrom:
+      - appserver
+  phpmyadmin:
+    type: phpmyadmin
+    hosts:
+      - database
+  # redis:
+  #   type: redis
+  #   persist: true
+  # redis-commander:
+  #   type: compose
+  #   services:
+  #     image: rediscommander/redis-commander:latest
+  #     environment:
+  #       - REDIS_HOSTS=local:redis:6379
