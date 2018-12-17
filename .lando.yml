@@ -1,0 +1,10 @@
+name: wp-5-composer
+recipe: pantheon
+config:
+  framework: wordpress
+  site: wp5-composer
+  id: 037605c2-f34e-4c91-a366-f0445745582c
+  webroot: web
+  via: nginx
+  php: "7.2"
+  xdebug: true
