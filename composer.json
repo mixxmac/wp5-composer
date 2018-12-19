@@ -4,14 +4,17 @@
   "type": "project",
   "keywords": [],
   "minimum-stability": "alpha",
-  "repositories": [
-    {
+  "repositories": [{
       "type": "composer",
       "url": "https://wpackagist.org"
     },
     {
       "type": "vcs",
       "url": "https://github.com/pantheon-systems/wordpress-composer"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/wp-graphql/wp-graphiql"
     }
   ],
   "require": {
@@ -21,8 +24,38 @@
     "roots/wp-password-bcrypt": "^1.0.0",
     "rvtraveller/qs-composer-installer": "^1.1",
     "vlucas/phpdotenv": "^2.4.0",
+    "wp-graphql/wp-graphiql": "^0.3.0",
+    "wp-graphql/wp-graphql": "^0.1.3",
+    "wp-graphql/wp-graphql-insights": "^0.2.0",
+    "wp-graphql/wp-graphql-jwt-authentication": "^0.3.1",
+    "wpackagist-plugin/advanced-custom-fields": "^5.7",
+    "wpackagist-plugin/agile-store-locator": "^1.1",
+    "wpackagist-plugin/broken-link-checker": "^1.11",
+    "wpackagist-plugin/code-snippets": "^2.13",
+    "wpackagist-plugin/coschedule-by-todaymade": "^3.2",
+    "wpackagist-plugin/elementor": "^2.3",
+    "wpackagist-plugin/everest-forms": "^1.4",
+    "wpackagist-plugin/google-analytics-for-wordpress": "^7.3",
+    "wpackagist-plugin/google-sitemap-generator": "^4.0",
+    "wpackagist-plugin/jetpack": "^6.8",
+    "wpackagist-plugin/mailpoet": "^3.17",
+    "wpackagist-plugin/ninja-forms": "^3.3",
+    "wpackagist-plugin/nivo-slider-lite": "^2.2",
     "wpackagist-plugin/pantheon-advanced-page-cache": "^0.1.4",
+    "wpackagist-plugin/pretty-link": "^2.1",
+    "wpackagist-plugin/redirection": "^3.6",
+    "wpackagist-plugin/tablepress": "^1.9",
+    "wpackagist-plugin/user-registration": "^1.5",
+    "wpackagist-plugin/user-switching": "^1.4",
+    "wpackagist-plugin/vaultpress": "^1.9",
+    "wpackagist-plugin/w3-total-cache": "^0.9.7",
+    "wpackagist-plugin/woocommerce": "^3.5",
+    "wpackagist-plugin/wordfence": "^7.1",
+    "wpackagist-plugin/wordpress-seo": "^9.3",
     "wpackagist-plugin/wp-native-php-sessions": "^0.6.0",
+    "wpackagist-plugin/wp-optimize": "^2.2",
+    "wpackagist-plugin/wp-smushit": "^3.0",
+    "wpackagist-plugin/wp-store-locator": "^2.2",
     "wpackagist-theme/twentyseventeen": "^1.1"
   },
   "require-dev": {
