@@ -18,6 +18,9 @@ proxy:
   # redis-commander:
   #   - redis-commander.wp5composer.lndo.site
 services:
+  database:
+    type: mariadb
+    portforward: 3306
   mailhog:
     type: mailhog
     hogfrom:

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "49ac8d0e361c43b35536ef53fb535818",
+    "content-hash": "89dd2d4a228a25463a764ca5c7592c36",
     "packages": [
         {
             "name": "composer/installers",
@@ -285,16 +285,16 @@
         },
         {
             "name": "pantheon-systems/wordpress-composer",
-            "version": "5.0.1",
+            "version": "5.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pantheon-systems/wordpress-composer.git",
-                "reference": "95ed1aece8ca8fca671463b02b4a66bb001f46a5"
+                "reference": "6d020b8d72b927e9ae78a7f1b44e390ce3d69906"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/95ed1aece8ca8fca671463b02b4a66bb001f46a5",
-                "reference": "95ed1aece8ca8fca671463b02b4a66bb001f46a5",
+                "url": "https://api.github.com/repos/pantheon-systems/wordpress-composer/zipball/6d020b8d72b927e9ae78a7f1b44e390ce3d69906",
+                "reference": "6d020b8d72b927e9ae78a7f1b44e390ce3d69906",
                 "shasum": ""
             },
             "require": {
@@ -312,10 +312,10 @@
             ],
             "description": "WordPress for Pantheon with a composer.json file.",
             "support": {
-                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/5.0.1",
+                "source": "https://github.com/pantheon-systems/wordpress-composer/tree/5.0.2",
                 "issues": "https://github.com/pantheon-systems/wordpress-composer/issues"
             },
-            "time": "2018-12-13T05:07:29+00:00"
+            "time": "2018-12-20T22:52:04+00:00"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -542,16 +542,16 @@
         },
         {
             "name": "wp-graphql/wp-graphql",
-            "version": "v0.1.3",
+            "version": "v0.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-graphql/wp-graphql.git",
-                "reference": "4e4934b4f6ed9e833cad064dccf0b3a73ca03ff7"
+                "reference": "3403461de0cbd521c012dda8ace75ba18a2634ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/4e4934b4f6ed9e833cad064dccf0b3a73ca03ff7",
-                "reference": "4e4934b4f6ed9e833cad064dccf0b3a73ca03ff7",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql/zipball/3403461de0cbd521c012dda8ace75ba18a2634ee",
+                "reference": "3403461de0cbd521c012dda8ace75ba18a2634ee",
                 "shasum": ""
             },
             "require": {
@@ -559,7 +559,6 @@
                 "webonyx/graphql-php": "^0.11.2"
             },
             "require-dev": {
-                "apigen/apigen": "^4.1",
                 "lucatume/wp-browser": "~1.21.20"
             },
             "type": "wordpress-plugin",
@@ -594,7 +593,7 @@
                 }
             ],
             "description": "GraphQL API for WordPress",
-            "time": "2018-12-04T21:50:52+00:00"
+            "time": "2018-12-19T21:22:31+00:00"
         },
         {
             "name": "wp-graphql/wp-graphql-insights",
@@ -779,15 +778,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "2.3.6",
+            "version": "2.3.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/2.3.6"
+                "reference": "tags/2.3.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.2.3.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.3.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -799,15 +798,15 @@
         },
         {
             "name": "wpackagist-plugin/everest-forms",
-            "version": "1.4.2",
+            "version": "1.4.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/everest-forms/",
-                "reference": "tags/1.4.2"
+                "reference": "tags/1.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/everest-forms.1.4.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/everest-forms.1.4.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -879,15 +878,15 @@
         },
         {
             "name": "wpackagist-plugin/mailpoet",
-            "version": "3.17.0",
+            "version": "3.17.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mailpoet/",
-                "reference": "tags/3.17.0"
+                "reference": "tags/3.17.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailpoet.3.17.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/mailpoet.3.17.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1099,15 +1098,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "3.5.2",
+            "version": "3.5.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/3.5.2"
+                "reference": "tags/3.5.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.5.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.3.5.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1239,15 +1238,15 @@
         },
         {
             "name": "wpackagist-theme/twentyseventeen",
-            "version": "1.8",
+            "version": "1.9",
             "source": {
                 "type": "svn",
                 "url": "https://themes.svn.wordpress.org/twentyseventeen/",
-                "reference": "1.8"
+                "reference": "1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/twentyseventeen.1.8.zip",
+                "url": "https://downloads.wordpress.org/theme/twentyseventeen.1.9.zip",
                 "reference": null,
                 "shasum": null
             },
